@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-22T09:49:12.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="2gsEPdm40WH6o9VU9Lqz" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-22T09:57:10.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="4mJv3z6skVTGJpbfMtSg" version="21.6.2" type="github">
   <diagram name="第 1 页" id="sMasFaDb9k89zol1cY1E">
-    <mxGraphModel dx="1942" dy="2262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1153" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,11 +81,21 @@
         <mxCell id="Bb5OvFUCuGvzxUChj8ti-24" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;b200_io&lt;/span&gt;&lt;/div&gt;基于AD9361实现B200收发信号的输入输出功能" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="330" y="930" width="260" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="Bb5OvFUCuGvzxUChj8ti-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bb5OvFUCuGvzxUChj8ti-27" target="Bb5OvFUCuGvzxUChj8ti-47">
+        <mxCell id="Bb5OvFUCuGvzxUChj8ti-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Bb5OvFUCuGvzxUChj8ti-27" target="Bb5OvFUCuGvzxUChj8ti-38">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1340" y="650" />
-              <mxPoint x="1200" y="650" />
+              <mxPoint x="1340" y="610" />
+              <mxPoint x="1330" y="610" />
+              <mxPoint x="1330" y="678" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bb5OvFUCuGvzxUChj8ti-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.58;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Bb5OvFUCuGvzxUChj8ti-27" target="Bb5OvFUCuGvzxUChj8ti-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="585" />
+              <mxPoint x="1310" y="710" />
+              <mxPoint x="1210" y="710" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -139,7 +149,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Bb5OvFUCuGvzxUChj8ti-38" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;radio_legacy_1&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;用于控制和管理B200无线电设备。它实现了B200无线电的顶层模块，包含了时钟速率的DSP组件、无线电和硬件控制以及设置等&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="670" width="210" height="130" as="geometry" />
+          <mxGeometry x="1360" y="670" width="190" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Bb5OvFUCuGvzxUChj8ti-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bb5OvFUCuGvzxUChj8ti-28" target="Bb5OvFUCuGvzxUChj8ti-34">
           <mxGeometry relative="1" as="geometry">
